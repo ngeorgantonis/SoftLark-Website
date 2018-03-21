@@ -1,0 +1,9 @@
+/* INITIALIZATION */
+* {margin: 0; padding: 0;}
+main, nav {display: block;}
+
+/* Main CSS */
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
