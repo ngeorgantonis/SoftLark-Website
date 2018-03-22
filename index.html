@@ -4,34 +4,38 @@
     <title>SoftLark</title>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="css/main.css" rel="stylesheet">
 </head>
     
 <body>
 
-    <div id="container">
+    <header id="navigation" class="responsiveNavBar">
         
-        <header>
-            <nav></nav>
-        </header>
+        <nav>            
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Features</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+            <a href="#" onclick="ToggleResponsiveNavMenu()"><i class="fas fa-bars"></i></a>
+        </nav>
+        
+    </header>
 
-        <aside id="welcomeMessage"></aside>
+    <header id="welcomeMessage">Welcome to SoftLark</header>
 
-        <main>
-            <section id="aboutUs"></section>
+    <section id="aboutUs">About Us</section>
 
-            <section id="features"></section>
+    <section id="features">Features</section>
 
-            <section id="portfolio"></section>
-        </main>
+    <section id="portfolio">Portfolio</section>    
 
-        <aside id="customerReviews"></aside>
+    <section id="customerReviews">Reviews</section>
 
-        <section id="contactUs"></section>
+    <section id="contactUs">Contact Us</section>
 
-        <footer></footer>
-    
-    </div><!-- End of container -->
-    
+    <footer>Footer</footer>
+        
 </body>
 </html>
