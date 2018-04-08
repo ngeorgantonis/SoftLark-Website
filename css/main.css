@@ -130,8 +130,38 @@ header, section, footer {
         }
 
 
-/* Customer Reviews */
+/* Reviews */
 
-#customerReviews h2 {padding: 25px 0;}
-#customerReviews .customerName {padding-bottom: 25px;}
-#customerReviews blockquote {padding: 0 350px;}
+    #reviews h2 {padding: 25px 0;}
+    #reviews .customerName {padding-bottom: 25px;}
+/*    #customerReviews blockquote {padding: 0 350px;}*/
+    #customerReviews blockquote {padding: 0 50%;}
+
+    .slider-container {overflow: hidden;}
+
+    .slider-holder {
+        width: 400%;
+        position: relative;
+        animation: scroller 20s infinite;
+        animation-direction: alternate;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .slide {
+        width: 25%;
+        display: inline-block;
+        max-width: 25%;
+        margin-right: -4px;
+    }
+
+    @keyframes scroller {
+      0%   { transform: translateX(0); }
+      10%  { transform: translateX(0); }
+      30%  { transform: translateX(-25%); }
+      40%  { transform: translateX(-25%); }
+      60%  { transform: translateX(-50%); }
+      70%  { transform: translateX(-50%); }
+      90% { transform: translateX(-75%); }
+      100% { transform: translateX(-75%); }
+    }
