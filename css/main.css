@@ -136,7 +136,7 @@ header, section, footer {
     .customerReview {padding: 50px 20%;}
     .customerName {padding-bottom: 50px;}
 
-    .leftQMark, .rightQMark {position: relative; font-size: 0.73rem; top: -3px;}
+    .leftQMark, .rightQMark {position: relative; font-size: 0.6rem; top: -3px;}
     .leftQMark {left: -2px;}
     .rightQMark {right: -2px;}
 
@@ -167,7 +167,13 @@ header, section, footer {
           40%  { transform: translateX(-25%); }
           60%  { transform: translateX(-50%); }
           70%  { transform: translateX(-50%); }
-          90% { transform: translateX(-75%); }
+          90%  { transform: translateX(-75%); }
           100% { transform: translateX(-75%); }
         }
+
+
+/* Contact */
+
+    #contact h2 {padding-top: 25px;}
+    #contact p { padding: 25px 20%;}
 
